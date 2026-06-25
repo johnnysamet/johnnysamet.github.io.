@@ -1,0 +1,33 @@
+ <!DOCTYPE html><html><head><meta charset="UTF-8"><title>BMI.py</title> <style> body { font-family: Consolas, monospace; background: #f5f7fb; padding: 1rem; }
+pre { white-space: pre-wrap; }
+.keyword { color: #0000ff; font-weight: 600; }
+.string { color: #a31515; }
+.comment { color: #008000; font-style: italic; }
+.number { color: #098658; } </style></head><body><pre><span class="keyword">import</span> time
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'Hello <span class="keyword">and</span> welcome to my BMI calculator'</span>)
+time.sleep(<span <span class="keyword">class</span>="number">2</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'BMI stands <span class="keyword">for</span> Body Mass Index, it <span class="keyword">is</span> a measure of body fat based on height <span class="keyword">and</span> weight'</span>)
+time.sleep(<span <span class="keyword">class</span>="number">2</span>)
+weight = float(input(<span <span class="keyword">class</span>="string">'Please enter your weight <span class="keyword">in</span> kilograms: '</span>))
+height = float(input(<span <span class="keyword">class</span>="string">'Please enter your height <span class="keyword">in</span> centimeters: '</span>))
+height = height / <span <span class="keyword">class</span>="number">100</span>  <span <span class="keyword">class</span>=<span <span class="keyword">class</span>="string">"comment"</span>># Convert centimeters to meters</span>
+bmi = weight / (height ** <span <span class="keyword">class</span>="number">2</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'Your BMI <span class="keyword">is</span>: {:.2f}'</span>.format(bmi))
+<span class="keyword">if</span> bmi &lt; <span <span class="keyword">class</span>="number">18.5</span>:
+    <span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'You are underweight.'</span>)
+<span class="keyword">elif</span> <span <span class="keyword">class</span>="number">18.5</span> &lt;= bmi &lt; <span <span class="keyword">class</span>="number">24.9</span>:
+    <span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'You have a normal weight.'</span>)
+<span class="keyword">elif</span> <span <span class="keyword">class</span>="number">25</span> &lt;= bmi &lt; <span <span class="keyword">class</span>="number">29.9</span>:
+    <span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'You are overweight.'</span>)
+<span class="keyword">else</span>:
+    <span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'You are obese.'</span>)
+time.sleep(<span <span class="keyword">class</span>="number">2</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'Thank you <span class="keyword">for</span> using my BMI calculator! Have a great day!'</span>)
+time.sleep(<span <span class="keyword">class</span>="number">0.50</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'P.S. Please remember to always consult with a healthcare professional <span class="keyword">for</span> personalized advice regarding your health <span class="keyword">and</span> BMI.'</span>)
+time.sleep(<span <span class="keyword">class</span>="number">2</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'Goodbye!'</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'This program was created by Johnathan Samet <span class="keyword">and</span> VS Code.'</span>)
+<span class="keyword">print</span> (<span <span class="keyword">class</span>="string">'If you have any questions <span class="keyword">or</span> feedback, please feel free to reach out to me at sametjohnathan@gmail.com'</span>)
+time.sleep(<span <span class="keyword">class</span>="number">2</span>)
+</pre></body></html>
